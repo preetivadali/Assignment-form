@@ -24,8 +24,12 @@
   border-radius: 5px;
   box-shadow: 2px 2px 2px royalblue;
   background-color:lightslategray
+  
 
-
+ }
+ .registration_form:hover{
+  background-color:cadetblue;
+  cursor: pointer;
  }
  h1{
   font-family: "Poppins", system-ui;
@@ -43,6 +47,14 @@
 }
 .btn-submit button:hover{
   background-color: red;
+}
+
+input:hover {
+  border-color: #ff9900; 
+  
+}
+input:hover::placeholder {
+  color: #ff9900; 
 }
 .fa-address-card{
 
