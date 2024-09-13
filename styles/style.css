@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  body{
+    background: url(../images/form-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+ }
+
+ .registration_form{
+
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  margin-right: 200px ;
+  margin-top: 65px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px royalblue;
+  background-color:lightslategray
+
+
+ }
+ h1{
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  
+ }
+
+.btn-submit button{
+
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+.btn-submit button:hover{
+  background-color: red;
+}
+.fa-address-card{
+
+color:blue;
+} 
+
+
+
+
